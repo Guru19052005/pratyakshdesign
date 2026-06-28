@@ -29,7 +29,7 @@ export default function AboutPage() {
                 Crafting Dreams Into <span className="text-teal-600">Reality</span>
               </h2>
               <p className="text-stone-600 text-lg leading-relaxed mb-6">
-                Founded by <strong>Er. Jigar Panchal</strong> in 2009, Pratyaksh Design is an Ahmedabad-based consulting firm specializing in Architecture Planning and Interior Designing, serving clients across Gujarat, Rajasthan and Mumbai.
+                Founded by <strong>Ar. Jigar Panchal</strong> in 2009, Pratyaksh Design is an Ahmedabad-based consulting firm specializing in Architecture Planning and Interior Designing, serving clients across Gujarat, Rajasthan and Mumbai.
               </p>
               <p className="text-stone-600 leading-relaxed mb-6">
                 We hope you connect with our customized designs and find the perfect inspiration for your dream space. Our highly skilled team of professionals is dedicated to delivering excellence in every project.
@@ -90,7 +90,7 @@ export default function AboutPage() {
           {/* Founder */}
           <div className="bg-gradient-to-br from-teal-50 to-white p-8 md:p-12 rounded-2xl border border-teal-100 text-center max-w-2xl mx-auto mb-12">
             <div className="w-24 h-24 rounded-full bg-gradient-to-br from-teal-400 to-teal-700 flex items-center justify-center text-white font-bold text-3xl mx-auto mb-4">JP</div>
-            <h3 className="font-serif-display text-2xl font-bold text-stone-900">Er. Jigar Panchal</h3>
+            <h3 className="font-serif-display text-2xl font-bold text-stone-900">Ar. Jigar Panchal</h3>
             <p className="text-teal-700 font-medium mb-3">Founder & Principal Architect</p>
             <p className="text-stone-600 leading-relaxed">
               With over a decade of experience in architecture and interior design, Jigar has led the firm to deliver more than 114 successful projects across Western India.

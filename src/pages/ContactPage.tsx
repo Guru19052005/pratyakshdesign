@@ -73,7 +73,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <div className="text-xs text-stone-500 uppercase tracking-wider">Founder</div>
-                    <div className="font-semibold text-stone-900">Er. Jigar Panchal</div>
+                    <div className="font-semibold text-stone-900">Ar. Jigar Panchal</div>
                   </div>
                 </div>
               </div>

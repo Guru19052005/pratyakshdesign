@@ -67,7 +67,7 @@ export const defaultGradients = [
 ];
 
 export const defaultProjects: Project[] = [
-  { id: '1', title: 'Skyline Villa', category: 'Residential', description: 'Modern luxury villa with panoramic views and floor-to-ceiling windows.', img: 'https://images.unsplash.com/photo-16134904935768-7ba188743c83?w=800&q=80' },
+  { id: '1', title: 'Skyline Villa', category: 'Residential', description: 'Modern luxury villa with panoramic views and floor-to-ceiling windows.', img: 'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=800' },
   { id: '2', title: 'Urban Loft', category: 'Interior Design', description: 'Contemporary loft space with industrial charm and exposed brick.', img: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80' },
   { id: '3', title: 'Corporate Hub', category: 'Commercial', description: 'Premium office space with modern open-plan design.', img: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80' },
   { id: '4', title: 'Dreamscape 3D', category: 'Visualization', description: 'Photorealistic 3D architectural visualization showcase.', img: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80' },
@@ -237,7 +237,6 @@ export function Navbar({ onOpenAdmin }: { onOpenAdmin: () => void }) {
               {item.label}
             </Link>
           ))}
-          <button onClick={() => { setMenuOpen(false); onOpenAdmin(); }} className="text-xs text-stone-400 mt-2">Admin</button>
         </div>
       )}
     </nav>
@@ -321,7 +320,7 @@ export function Footer({ onOpenAdmin }: { onOpenAdmin: () => void }) {
         </div>
         <div className="border-t border-stone-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-stone-500">
           <p onClick={handleSecretClick} className="cursor-default select-none">© {new Date().getFullYear()} Pratyaksh Design. All rights reserved.</p>
-          <p>Designed with <span className="text-teal-400">♥</span> by Er. Jigar Panchal</p>
+          <p>Designed with <span className="text-teal-400">♥</span> by Ar. Jigar Panchal</p>
         </div>
       </div>
     </footer>
